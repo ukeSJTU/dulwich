@@ -1,3 +1,7 @@
+## NewType
+
+from typing import NewType
+
 ## Argparse
 
 ### 2. **argparse 使用技巧**
