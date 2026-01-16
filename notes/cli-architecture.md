@@ -166,6 +166,16 @@ TypeError: Can't instantiate abstract class cmd_foobar without an implementation
 
 我唯一没搞懂的就是为什么有的是 argv 作为参数，有的是 args？感觉可能就是历史因素
 
+**统计数据**：
+
+-   使用 `argv` 的命令：15 个
+-   使用 `args` 的命令：90 个
+
+**我的猜测**：
+
+1. **历史演进**：`argv` 是传统命名（来自 C 语言的 `int main(int argc, char *argv[])`）
+2. **现代简化**：`args` 是 Python 风格的简化命名
+
 ### 模式 1：简单命令（如 `cmd_add`）
 
 ```python
