@@ -6675,7 +6675,7 @@ class cmd_rerere(Command):
             )
 
 
-commands = {
+commands: dict[str, Command] = {
     "add": cmd_add,
     "annotate": cmd_annotate,
     "archive": cmd_archive,
