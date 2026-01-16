@@ -41,4 +41,14 @@ dulwich = "dulwich.cli:main"
 
 因此我们从 [`dulwich/cli.py`](../dulwich/cli.py) 的 `main` 函数开始看起。
 
-> VSCode 小技巧，可以用 Command+Shift+O 输入 `main`，快速跳转到已经打开的editor中 `main` 函数定义处。当然也可以 Command+P 输入 `cli@main` 来跳转。
+> VSCode 小技巧，可以用 Command+Shift+O 输入 `main`，快速跳转到已经打开的 editor 中 `main` 函数定义处。当然也可以 Command+P 输入 `cli@main` 来跳转。
+
+## 学习笔记
+
+1. **[CLI 架构分析](cli-architecture.md)** - 命令行工具的整体设计
+    - 两阶段参数解析
+    - 命令模式 + 注册表模式
+    - argparse 高级用法
+    - 输出流管理（AutoFlush、Pager）
+
+
